@@ -1,0 +1,16 @@
+{
+  "name": "chrome plugin using socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreya",
+  "license": "ISC"
+}
