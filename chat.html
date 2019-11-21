@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat Console</title>
+</head>
+<style type="text/css">
+.textarea {margin-top: 67px; margin-left: 568px;}
+.message_area {margin-top: 67px; margin-left: 337px;}
+.btn {color: #fff;background-color:#0072c3;border-color: #2e6da4}
+</style>
+<body>
+	<div class="textarea" id="textarea" name="textarea">
+		<input class="textbox" type="text" id="textfield" value="" />
+		<button class="btn" id="send" name="button">Send</button>
+	</div>
+
+	<div class="message_area" id="message_area">
+		<ul id="myList">
+		</ul>
+	</div>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="chat.js"></script>
+</html>
