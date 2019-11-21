@@ -1,0 +1,11 @@
+{
+    "name": "Chat Application",
+    "version": "1.0",
+    "description": "Developing a chat plugin!",
+    "browser_action": {
+        "default_icon": "chat.png",
+        "default_popup": "popup.html",
+        "default_title": "My custom Extension"
+    },
+    "manifest_version": 2
+  }
